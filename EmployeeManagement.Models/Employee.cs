@@ -1,16 +1,7 @@
 ﻿namespace EmployeeManagement.Models
 {
-    public class Department
-    {
-        public int DepartmentId { get; set; }
-        public string DepartmentName { get; set; } = string.Empty;
-    }
-    public enum Gender
-    {
-        Male,
-        Female,
-        Other
-    }
+
+
 
     public class Employee
     {

@@ -1,0 +1,12 @@
+E:\Test Project\empManagement\EmployeeManagement.Models\EmployeeManagement.Models\bin\Debug\net6.0\EmployeeManagement.Models.deps.json
+E:\Test Project\empManagement\EmployeeManagement.Models\EmployeeManagement.Models\bin\Debug\net6.0\EmployeeManagement.Models.dll
+E:\Test Project\empManagement\EmployeeManagement.Models\EmployeeManagement.Models\bin\Debug\net6.0\ref\EmployeeManagement.Models.dll
+E:\Test Project\empManagement\EmployeeManagement.Models\EmployeeManagement.Models\bin\Debug\net6.0\EmployeeManagement.Models.pdb
+E:\Test Project\empManagement\EmployeeManagement.Models\EmployeeManagement.Models\obj\Debug\net6.0\EmployeeManagement.Models.csproj.AssemblyReference.cache
+E:\Test Project\empManagement\EmployeeManagement.Models\EmployeeManagement.Models\obj\Debug\net6.0\EmployeeManagement.Models.GeneratedMSBuildEditorConfig.editorconfig
+E:\Test Project\empManagement\EmployeeManagement.Models\EmployeeManagement.Models\obj\Debug\net6.0\EmployeeManagement.Models.AssemblyInfoInputs.cache
+E:\Test Project\empManagement\EmployeeManagement.Models\EmployeeManagement.Models\obj\Debug\net6.0\EmployeeManagement.Models.AssemblyInfo.cs
+E:\Test Project\empManagement\EmployeeManagement.Models\EmployeeManagement.Models\obj\Debug\net6.0\EmployeeManagement.Models.csproj.CoreCompileInputs.cache
+E:\Test Project\empManagement\EmployeeManagement.Models\EmployeeManagement.Models\obj\Debug\net6.0\EmployeeManagement.Models.dll
+E:\Test Project\empManagement\EmployeeManagement.Models\EmployeeManagement.Models\obj\Debug\net6.0\ref\EmployeeManagement.Models.dll
+E:\Test Project\empManagement\EmployeeManagement.Models\EmployeeManagement.Models\obj\Debug\net6.0\EmployeeManagement.Models.pdb

@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace EmployeeManagement.Api.Models
 {
-    public class EmployeeDbContext : DbContext
+    public class AppDbContext : DbContext
     {
-        public EmployeeDbContext(DbContextOptions<EmployeeDbContext> options) : base(options)
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
         }
 

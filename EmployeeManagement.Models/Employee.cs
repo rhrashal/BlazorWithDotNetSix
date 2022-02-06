@@ -1,4 +1,6 @@
-﻿namespace EmployeeManagement.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace EmployeeManagement.Models
 {
 
 
@@ -6,12 +8,16 @@
     public class Employee
     {
         public int EmployeeId { get; set; }
-        public string FirstName { get; set; } = string.Empty;
-        public string LastName { get; set; } = string.Empty;
-        public string Email { get; set; } = string.Empty;
+        [Required]
+        [StringLength(100, MinimumLength = 2)]
+        public string FirstName { get; set; }
+        [Required]
+        public string LastName { get; set; }
+        [Required]
+        public string Email { get; set; }
         public DateTime DateOfBrith { get; set; }
         public Gender Gender { get; set; }
         public int DepartmentId { get; set; }
-        public string PhotoPath { get; set; } = string.Empty;
+        public string PhotoPath { get; set; }
     }
 }

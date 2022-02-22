@@ -21,7 +21,7 @@
     </div>
     }
 </div>*@
-@if (Employees.Count() < 1)
+@if (Employees == null)
 {
     <div class="spinner"></div>
 }
@@ -39,7 +39,7 @@ else
 
 
             <div class="card-footer text-center">
-                <a href="#" class="btn btn-primary m-1">View</a>
+                <a href="@($"employeedetails/{employee.EmployeeId}")" class="btn btn-primary m-1">View</a>
 
                 <a href="#" class="btn btn-primary m-1">Edit</a>
 

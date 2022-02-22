@@ -11,7 +11,7 @@ builder.Services.AddServerSideBlazor();
 
 builder.Services.AddHttpClient<IEmployeeService, EmployeeService>(client =>
 {
-    client.BaseAddress = new Uri("https://localhost:44379/");
+    client.BaseAddress = new Uri("https://localhost:7224/");
 });
 
 var app = builder.Build();

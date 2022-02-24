@@ -24,6 +24,7 @@ else
                     <h4>Employee ID : @Employee.EmployeeId</h4>
                     <h4>Email : @Employee.Email</h4>
                     <h4>Department : @Employee.Department.DepartmentName</h4>
+
                 </div>
                 <button class="btn btn-primary" @onclick="@Button_Click">@ButtonText</button>
 
@@ -31,6 +32,21 @@ else
                     <a href="/" class="btn btn-primary">Back</a>
                     <a href="#" class="btn btn-primary">Edit</a>
                     <a href="#" class="btn btn-danger">Delete</a>
+                </div>
+
+               <div class="card-footer text-center @CssClass">
+                    <b>Colour :</b> <input @bind="Colour" />
+                    <div @bind-style="Colour" @bind-style:event="onchange">
+                        <h3>The background colour of this text changes</h3>
+                    </div>
+                </div>
+                 <div class="card-footer text-center @CssClass">
+                   <div>
+                        <textarea @bind="Description" @bind:event="oninput" />
+                    </div>
+                    <div>
+                        Count : @Description
+                    </div>
                 </div>
             </div>
         </div>

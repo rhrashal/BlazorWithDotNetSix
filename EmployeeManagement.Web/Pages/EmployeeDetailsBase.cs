@@ -16,7 +16,10 @@ namespace EmployeeManagement.Web.Pages
 
         [Parameter]
         public string Id { get; set; }
-     
+        protected string Name { get; set; } = "Tom";
+        protected string Colour { get; set; } = "background-color:white";
+        public string Description { get; set; } = string.Empty;
+        protected string Gender { get; set; } = "Male";
         protected override async Task OnInitializedAsync()
         {
             // If Id value is not supplied in the URL, use the value 1
